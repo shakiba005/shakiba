@@ -1,0 +1,145 @@
+input[type="text"],
+input[type="password"] {
+  color: black;
+  border-radius: 7px;
+  padding: 17px;
+  margin: 17px;
+  border: none; /* حذف کادر */
+  border-bottom: 1px solid #0d0d0d; /* خط زیر */
+  outline: none; /* حذف حاشیه هنگام فوکوس */
+
+  width: 305px; /* عرض فیلد */
+
+  justify-content: flex-end; /* تراز کردن به سمت راست */
+}
+
+.left {
+  margin-right: 2.5cm;
+
+  text-align: right;
+
+  opacity: 1;
+}
+
+.asli {
+  overflow: hidden;
+}
+
+.right {
+  width: 7.5cm;
+  margin-left: 0.6cm;
+  background-image: url("./image.jpg");
+  border-radius: 19px;
+  transition: transform 2.5s; /* انیمیشن */
+
+  padding: 15px 40px;
+
+  background-color: antiquewhite;
+
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 89, 255);
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 7mm;
+  color: rgb(18, 97, 244);
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 18px;
+  font-size: 30px;
+}
+
+input[type="submit"] {
+  text-decoration: double;
+  color: aliceblue;
+  background-color: rgb(58, 120, 234);
+  border-radius: 11px;
+  font-size: 20px;
+  padding: 6px 143px;
+  margin: 10px;
+  margin-top: 0.8cm;
+  outline: none;
+  border: none;
+}
+div {
+  direction: ltr;
+}
+
+.button-link {
+  display: block;
+  padding: 10px 30px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #6ac2ef;
+  color: rgb(13, 91, 193);
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 0.4cm;
+  margin-left: 2.4cm;
+  transition: 2s;
+  position: absolute;
+}
+#text,
+#password {
+  color: rgb(34, 79, 239);
+  border-radius: 5px;
+  padding: 16px;
+  margin: 18px;
+  border: none;
+  border-bottom: 1px solid #0b0b0b;
+  outline: none;
+  margin-right: 10px;
+  width: 276px;
+
+  align-items: baseline;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-right: 10%;
+  margin-top: 3cm;
+  min-height: 450px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 4px 4px 16px 16px rgba(0, 0, 0, 0.1);
+  width: 25cm;
+  height: 9cm;
+  grid-template-columns: 1fr 1fr;
+  transition: 2s;
+}
+.container {
+  position: absolute;
+  overflow: hidden;
+
+  top: 0.5cm;
+  right: 13.1cm;
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.forget {
+  color: rgba(23, 60, 245, 0.788);
+  margin-left: 0.5cm;
+  margin-top: 4mm;
+}
+
+html {
+  scroll-behavior: smooth; /* فعال کردن اسکرول نرم */
+}
+
+#submit {
+  margin-left: 0.5cm;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./enter.css" />
+
+    <title>sing up</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="asli" id="container">
+        <form class="left" id="form1">
+          <h1>sing up</h1>
+          <input type="text" placeholder="user name" name="" id="" />
+          <br />
+
+          <input type="password" placeholder="password" name="" id="" />
+
+          <br />
+
+          <input type="password" placeholder="confirm password" name="" id="" />
+          <br />
+
+          <input class="" type="submit" value="create" id="" />
+        </form>
+
+        <form class="container" id="form2">
+          <h1 class="sing-in">sing in</h1>
+          <input type="text" placeholder="user name" name="" id="text" />
+          <br />
+
+          <input type="password" placeholder="password" name="" id="password" />
+
+          <br />
+
+          <aside class="forget">forget password?</aside>
+          <br />
+
+          <input class="submit" type="submit" value="Go" id="submit" />
+        </form>
+      </div>
+
+      <div id="myContainer" class="right">
+        <h2 id="myText">Hello, Friend!</h2>
+        <p id="mytext">enter your personal details and start journey with us</p>
+        <button onclick="" id="myButton" class="button-link">sing in</button>
+      </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+      let isMoved = false;
+      let moveDistance = 538; // فاصله حرکت
+
+      document
+        .getElementById("myButton")
+        .addEventListener("click", function sowp() {
+          let container = document.getElementById("myContainer");
+          let Text = document.getElementById("myText");
+          let text = document.getElementById("mytext");
+          let button = document.getElementById("myButton");
+          let image = document.getElementById("myImage");
+
+          if (!isMoved) {
+            // حرکت به راست
+            container.style.transform = "translateX(" + moveDistance + "px)";
+
+            setTimeout(function () {
+              gsap.to("#form1", { x: -400, opacity: 0, duration: 2 });
+              gsap.fromTo(
+                "#form2",
+                { x: 400, opacity: 0 },
+
+                { x: 0, opacity: 1, duration: 1 }
+              );
+              Text.textContent = "Welcome Back";
+              text.textContent =
+                "to keep connected with us please login with \n your personal info";
+              button.textContent = "sing up";
+
+              image.src = "./desin/mogoli.jpg";
+            }, 600);
+            isMoved = true;
+          } else {
+            // برگشت به حالت اولیه
+            container.style.transform = "translateX(0)";
+
+            setTimeout(function () {
+              gsap.to("#form2", { x: 400, opacity: 0, duration: 1 });
+              gsap.fromTo(
+                "#form1",
+                { x: -400, opacity: 0 },
+
+                { x: 0, opacity: 1, duration: 2 }
+              );
+              Text.textContent = "Hello, Friend!";
+              text.textContent =
+                "enter your personal details and start  journey with us";
+              button.textContent = "sing in";
+
+              image.src = "./desin/gogoli.jpg"; // برگردوندنش
+            }, 0);
+            isMoved = false;
+          }
+        });
+    </script>
+  </body>
+</html>
