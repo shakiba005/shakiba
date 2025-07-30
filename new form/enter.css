@@ -136,9 +136,6 @@ main {
   margin-top: 4mm;
 }
 
-html {
-  scroll-behavior: smooth; /* فعال کردن اسکرول نرم */
-}
 
 #submit {
   margin-left: 0.5cm;
