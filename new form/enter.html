@@ -52,7 +52,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script>
       let isMoved = false;
-      let moveDistance = 538; // فاصله حرکت
+      let moveDistance = 538; 
 
       document
         .getElementById("myButton")
@@ -77,14 +77,14 @@
               );
               Text.textContent = "Welcome Back";
               text.textContent =
-                "to keep connected with us please login with \n your personal info";
+                "to keep connected with us please login with your personal info";
               button.textContent = "sing up";
 
-              image.src = "./desin/mogoli.jpg";
+           
             }, 600);
             isMoved = true;
           } else {
-            // برگشت به حالت اولیه
+          
             container.style.transform = "translateX(0)";
 
             setTimeout(function () {
@@ -100,7 +100,7 @@
                 "enter your personal details and start  journey with us";
               button.textContent = "sing in";
 
-              image.src = "./desin/gogoli.jpg"; // برگردوندنش
+            
             }, 0);
             isMoved = false;
           }
