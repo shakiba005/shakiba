@@ -81,9 +81,9 @@ I'm continuously building new projects to strengthen my front-end development sk
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shakiba005&show_icons=true&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api?username=Shakiba-Ahrari&show_icons=true&theme=tokyonight" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shakiba_Ahrari&layout=compact&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shakiba-Ahrari&layout=compact&theme=tokyonight" />
 
 </p>
 
@@ -91,7 +91,7 @@ I'm continuously building new projects to strengthen my front-end development sk
 
 ## 📫 Connect With Me
 <p align="left">
-  💻 GitHub: https://github.com/Shakiba_Ahrari
+  💻 GitHub: https://github.com/Shakiba-Ahrari
   📧 <b>Email:</b> shakibaahrari12@gmail.com<br>
   💬 <b>Telegram:</b> <a href="https://t.me/ai_shakiba">@ai_shakiba</a>
 </p>
