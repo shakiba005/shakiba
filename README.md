@@ -22,7 +22,7 @@ I'm currently expanding my knowledge in React while exploring UI/UX Design to cr
 ## 🚀 Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,wordpress,git,github,vscode,figma" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,python,wordpress,git,github,vscode,figma,ps" />
 </p>
 
 ### Languages & Technologies
@@ -40,6 +40,7 @@ I'm currently expanding my knowledge in React while exploring UI/UX Design to cr
 - GitHub
 - VS Code
 - Figma
+- PS
 
 ---
 
@@ -89,10 +90,8 @@ I'm continuously building new projects to strengthen my front-end development sk
 ---
 
 ## 📫 Connect With Me
-
-- 💻 GitHub: https://github.com/Shakiba_Ahrari
-
 <p align="left">
+  💻 GitHub: https://github.com/Shakiba_Ahrari
   📧 <b>Email:</b> shakibaahrari12@gmail.com<br>
   💬 <b>Telegram:</b> <a href="https://t.me/ai_shakiba">@ai_shakiba</a>
 </p>
