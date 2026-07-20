@@ -91,7 +91,11 @@ I'm continuously building new projects to strengthen my front-end development sk
 ## 📫 Connect With Me
 
 - 💻 GitHub: https://github.com/Shakiba_Ahrari
-- 🌐 Portfolio: https://shakibaahrari.ir
+
+<p align="left">
+  📧 <b>Email:</b> shakibaahrari12@gmail.com<br>
+  💬 <b>Telegram:</b> <a href="https://t.me/ai_shakiba">@ai_shakiba</a>
+</p>
 
 ---
 
