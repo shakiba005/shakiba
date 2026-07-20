@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+<style>
+  table, th , td  {
+    border:1px solid rgb(75, 143, 246);
+    margin: 50px;
+   text-align: center;
+  }
+  </style>
+
+<table style="width:60%">
+  
+    <tr>
+      <th> Code ID</th>
+      <th> Price</th>
+      <th> Marke</th>
+      <th> Year</th>
+      <th> Battery</th>
+    </tr>
+    {%for Smartphone in allphone %}
+    <tr>
+      <td>{{Smartphone[0]}}</td>
+      <td>{{Smartphone[1]}}</td>
+      <td>{{Smartphone[2]}}</td>
+      <td>{{Smartphone[3]}}</td>
+      <td>{{Smartphone[4]}}</td>
+    </tr>
+    {% endfor %}
+  </table> 
+  <a href="/deletephone" class="btn-primary" style="margin: 50px;">Delete Smartphone</a>
+{% endblock %}
