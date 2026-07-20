@@ -20,7 +20,7 @@ A modern and animated Sign Up / Sign In user interface built with HTML, CSS, Jav
 
 ## 📂 Project Structure
 
-project/
+new form/
 │── enter.html
 │── enter.css
 │── image.jpg
